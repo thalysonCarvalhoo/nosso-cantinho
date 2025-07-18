@@ -149,6 +149,13 @@ footer {
   color: #8a4c75;
 }
 
+
+.aviso {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #8a4c75;
+}
+
 .motivos {
   max-width: 800px;
   margin: 50px auto;
