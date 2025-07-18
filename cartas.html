@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cartas para o Futuro ✉️</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>✉️ Cartas para o Futuro ✉️</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="historia.html">Nossa História</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="motivos.html">Motivos</a></li>
+        <li><a href="cartas.html">Cartas</a></li>
+        <li><a href="frases.html">Frases Surpresa</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="cartas">
+      <h2>Clique nas cartas para ler 💌</h2>
+      <div class="lista-cartas">
+        <div class="carta" onclick="toggleCarta(this)">
+          <div class="carta-frente">Carta 1</div>
+          <div class="carta-verso">Prometo sempre te apoiar, não importa o que aconteça.</div>
+        </div>
+        <div class="carta" onclick="toggleCarta(this)">
+          <div class="carta-frente">Carta 2</div>
+          <div class="carta-verso">Nosso amor vai crescer a cada dia, até o infinito.</div>
+        </div>
+        <div class="carta" onclick="toggleCarta(this)">
+          <div class="carta-frente">Carta 3</div>
+          <div class="carta-verso">Juntos, construiremos memórias lindas e inesquecíveis.</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito com amor 💖 por seu PRINCIPE</p>
+  </footer>
+
+  <script>
+    function toggleCarta(carta) {
+      carta.classList.toggle('aberta');
+    }
+  </script>
+</body>
+</html>
