@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frases Surpresa 🌟</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌟 Frases Surpresa 🌟</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="historia.html">Nossa História</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="motivos.html">Motivos</a></li>
+        <li><a href="cartas.html">Cartas</a></li>
+        <li><a href="frases.html">Frases Surpresa</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="frases-surpresa">
+      <h2>Clique no botão para receber uma frase 💬</h2>
+      <button onclick="mostrarFrase()">Receber frase</button>
+      <p id="frase" class="frase-texto"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito com amor 💖 por seu PRINCIPE</p>
+  </footer>
+
+  <script>
+    const frases = [
+      "Você é a melhor parte do meu dia.",
+      "Com você, tudo fica mais bonito.",
+      "Cada momento ao seu lado é um sonho realizado.",
+      "Te amo mais do que palavras podem expressar.",
+      "Você é minha inspiração e minha paz.",
+      "Nosso amor é minha maior aventura.",
+      "Você é meu sorriso em dias nublados.",
+      "Contigo, quero construir todos os futuros.",
+      "Amar você é a coisa mais fácil e maravilhosa que já fiz.",
+      "Meu coração é seu, para sempre."
+    ];
+
+    function mostrarFrase() {
+      const indice = Math.floor(Math.random() * frases.length);
+      document.getElementById("frase").innerText = frases[indice];
+    }
+  </script>
+</body>
+</html>
