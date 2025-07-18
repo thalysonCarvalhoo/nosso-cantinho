@@ -148,3 +148,39 @@ footer {
   font-size: 0.9em;
   color: #8a4c75;
 }
+
+.motivos {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.motivos h2 {
+  color: #b30059;
+  margin-bottom: 30px;
+}
+
+.lista-motivos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.lista-motivos button {
+  padding: 15px 25px;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 30px;
+  background-color: #ffb6c1;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 10px #dab1d8;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.lista-motivos button:hover {
+  background-color: #e75480;
+  transform: scale(1.03);
+}
