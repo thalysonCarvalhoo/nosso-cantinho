@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffe6f0, #f5e8ff);
+  color: #5c2767;
+  text-align: center;
+  padding: 0;
+}
+
+header {
+  background-color: #ffffffaa;
+  padding: 20px;
+  border-bottom: 2px solid #f2c4e0;
+}
+
+h1 {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 2.8em;
+  color: #b30059;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #7a2c8a;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #e60073;
+}
+
+.mensagem {
+  margin-top: 50px;
+}
+
+button {
+  background-color: #ffb6c1;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.1em;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: 0px 4px 10px #cfa8d6;
+}
+
+button:hover {
+  background-color: #e75480;
+}
+
+#mensagem-secreta {
+  margin-top: 20px;
+  font-size: 1.3em;
+  color: #a0004f;
+}
+
+.escondido {
+  display: none;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #fff0f5;
+  color: #7a2c8a;
+  font-size: 0.9em;
+}
