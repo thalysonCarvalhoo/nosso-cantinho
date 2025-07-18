@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nosso Cantinho 💖</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Bem-vinda ao Nosso Cantinho 💕</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="historia.html">Nossa História</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="motivos.html">Motivos</a></li>
+        <li><a href="cartas.html">Cartas</a></li>
+        <li><a href="frases.html">Frases Surpresa</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="mensagem">
+      <h2>Clique e descubra uma surpresa!</h2>
+      <button onclick="mostrarMensagem()">💌 Abrir 💌</button>
+      <p id="mensagem-secreta" class="escondido">Você é o melhor presente que a vida me deu. Te amo! ❤️</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito com amor 💖 por [Seu Nome]</p>
+  </footer>
+
+  <script>
+    function mostrarMensagem() {
+      const msg = document.getElementById("mensagem-secreta");
+      msg.classList.remove("escondido");
+    }
+  </script>
+</body>
+</html>
