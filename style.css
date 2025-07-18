@@ -250,3 +250,39 @@ footer {
   transform: rotateY(0deg);
   position: relative;
 }
+
+.frases-surpresa {
+  max-width: 700px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.frases-surpresa h2 {
+  color: #b30059;
+  margin-bottom: 25px;
+}
+
+.frases-surpresa button {
+  background-color: #ffb6c1;
+  border: none;
+  padding: 15px 35px;
+  font-size: 1.2em;
+  border-radius: 30px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 12px #dab1d8;
+  transition: background-color 0.3s ease;
+}
+
+.frases-surpresa button:hover {
+  background-color: #e75480;
+}
+
+.frase-texto {
+  margin-top: 30px;
+  font-size: 1.3em;
+  font-style: italic;
+  color: #a0004f;
+  min-height: 60px;
+}
