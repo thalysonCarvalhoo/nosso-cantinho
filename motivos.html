@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Motivos por que te amo 💖</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌹 Motivos por que te amo 🌹</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="historia.html">Nossa História</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="motivos.html">Motivos</a></li>
+        <li><a href="cartas.html">Cartas</a></li>
+        <li><a href="frases.html">Frases Surpresa</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="motivos">
+      <h2>Clique para descobrir 💘</h2>
+      <div class="lista-motivos">
+        <button onclick="mostrarMotivo(this, 'Seu sorriso ilumina meus dias.')">Motivo 1</button>
+        <button onclick="mostrarMotivo(this, 'Você sempre me apoia, mesmo nos meus piores dias.')">Motivo 2</button>
+        <button onclick="mostrarMotivo(this, 'A forma como você me olha faz meu coração derreter.')">Motivo 3</button>
+        <button onclick="mostrarMotivo(this, 'Você é meu lar, meu porto seguro.')">Motivo 4</button>
+        <button onclick="mostrarMotivo(this, 'Te amar é a coisa mais natural do mundo.')">Motivo 5</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito com amor 💖 por seu PRINCIPE</p>
+  </footer>
+
+  <script>
+    function mostrarMotivo(botao, texto) {
+      botao.disabled = true;
+      botao.innerText = texto;
+      botao.style.backgroundColor = "#e6a1c7";
+    }
+  </script>
+</body>
+</html>
